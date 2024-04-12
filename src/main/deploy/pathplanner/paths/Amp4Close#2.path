@@ -1,0 +1,70 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.5553683061717036,
+        "y": 4.333009521939157
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.759031421058561,
+        "y": 4.625780435583695
+      },
+      "isLocked": false,
+      "linkedName": "Close4_1End"
+    },
+    {
+      "anchor": {
+        "x": 2.578789979263267,
+        "y": 5.679755724704031
+      },
+      "prevControl": {
+        "x": 1.735609747966998,
+        "y": 5.562647359246215
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Close4_2End"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.35,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "RunIntake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 3.8,
+    "maxAngularVelocity": 570.0,
+    "maxAngularAcceleration": 500.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0,
+    "rotateFast": true
+  },
+  "reversed": false,
+  "folder": "4AmpSide_Close",
+  "previewStartingState": {
+    "rotation": -27.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

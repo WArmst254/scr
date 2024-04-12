@@ -1,0 +1,108 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.094593992326358,
+        "y": 0.8080477216589235
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 8.317099886696207,
+        "y": 1.6512279529551925
+      },
+      "isLocked": false,
+      "linkedName": "SweepCenter_1End"
+    },
+    {
+      "anchor": {
+        "x": 8.211702357784173,
+        "y": 2.4475648380683346
+      },
+      "prevControl": {
+        "x": 8.253853910953154,
+        "y": 1.9417462000405674
+      },
+      "nextControl": {
+        "x": 8.176569848146828,
+        "y": 2.869154953716469
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.8695350486278715,
+        "y": 4.087081954477746
+      },
+      "prevControl": {
+        "x": 7.157727068663837,
+        "y": 4.180768646843998
+      },
+      "nextControl": {
+        "x": 4.546559675020798,
+        "y": 3.990865563669958
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.6210544318378215,
+        "y": 2.79888993444178
+      },
+      "prevControl": {
+        "x": 4.311993788038931,
+        "y": 3.536672636826015
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "2Source_1Sweep#1End"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.1,
+      "rotationDegrees": 90.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.15000000000000002,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "RunIntake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.98,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 570.0,
+    "maxAngularAcceleration": 500.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -33.69006752597977,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "2Source_1Sweep",
+  "previewStartingState": {
+    "rotation": 46.30195267257887,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

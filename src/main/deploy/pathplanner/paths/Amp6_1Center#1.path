@@ -1,0 +1,70 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.719320017812645,
+        "y": 6.991369417831561
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.265150441855804,
+        "y": 7.202164475655628
+      },
+      "isLocked": false,
+      "linkedName": "Amp4_3End"
+    },
+    {
+      "anchor": {
+        "x": 8.059461482689013,
+        "y": 7.471513716208602
+      },
+      "prevControl": {
+        "x": 8.068611665500494,
+        "y": 7.645367189626765
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Amp6_1Center#1_SplittingEnd"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.7,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "RunIntake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.98,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 570.0,
+    "maxAngularAcceleration": 500.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 1.9414863909143663,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Amp6_SplitOff",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

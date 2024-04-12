@@ -1,0 +1,82 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.059461482689013,
+        "y": 7.471513716208602
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.7315580594071305,
+        "y": 6.862550215827963
+      },
+      "isLocked": false,
+      "linkedName": "Amp6_1Center#1_SplittingEnd"
+    },
+    {
+      "anchor": {
+        "x": 7.848666424864946,
+        "y": 5.6212015419751244
+      },
+      "prevControl": {
+        "x": 7.555895511220409,
+        "y": 6.4175384270882665
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Amp5_1Center_1#2End"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "New Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 2.0,
+        "maxAcceleration": 2.5,
+        "maxAngularVelocity": 570.0,
+        "maxAngularAcceleration": 500.0
+      }
+    }
+  ],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.7,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "RunIntake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.98,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 570.0,
+    "maxAngularAcceleration": 500.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -87.90474743537615,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Amp6_SplitOff",
+  "previewStartingState": {
+    "rotation": -74.89890183861456,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

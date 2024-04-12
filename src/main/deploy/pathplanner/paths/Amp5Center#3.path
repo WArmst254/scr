@@ -1,0 +1,104 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.265150441855804,
+        "y": 6.218454205809981
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.220860145001316,
+        "y": 6.8039960330990565
+      },
+      "isLocked": false,
+      "linkedName": "Amp5Center_2End"
+    },
+    {
+      "anchor": {
+        "x": 8.071172319234796,
+        "y": 5.855418272890754
+      },
+      "prevControl": {
+        "x": 8.071172319234796,
+        "y": 5.562647359246216
+      },
+      "nextControl": {
+        "x": 8.071172319234796,
+        "y": 6.169652991967829
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 4.265150441855804,
+        "y": 6.218454205809981
+      },
+      "prevControl": {
+        "x": 5.682161663895367,
+        "y": 6.733731013824367
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.95,
+      "rotationDegrees": -9.858469468054219,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "New Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 0,
+      "constraints": {
+        "maxVelocity": 4.0,
+        "maxAcceleration": 4.9,
+        "maxAngularVelocity": 570.0,
+        "maxAngularAcceleration": 500.0
+      }
+    }
+  ],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.25,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "RunIntake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.98,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 570.0,
+    "maxAngularAcceleration": 500.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 10.0,
+    "rotateFast": true
+  },
+  "reversed": false,
+  "folder": "5SubSide_Center",
+  "previewStartingState": {
+    "rotation": 10.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
